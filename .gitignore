@@ -1,0 +1,12 @@
+Thumbs.db
+tmp/
+out/
+build/
+.idea/
+.gradle/
+*.DS_Store
+*_old
+*_backup
+*.iws
+*.iml
+*.ipr
