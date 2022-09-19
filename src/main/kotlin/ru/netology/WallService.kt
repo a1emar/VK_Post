@@ -19,4 +19,7 @@ object WallService {
     fun print() {
         for (post in posts) println(post)
     }
+    fun clear() {
+        posts = emptyArray()
+    }
 }
