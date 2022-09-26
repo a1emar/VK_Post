@@ -4,9 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a84c1a8-81c7-4f21-8cf3-59defdaf560d" name="Changes" comment="add gradle.yml">
+    <list default="true" id="1a84c1a8-81c7-4f21-8cf3-59defdaf560d" name="Changes" comment="fix wallservice WallServiceTest">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ru/netology/Comments.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ru/netology/Copyright.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ru/netology/Data.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ru/netology/Donut.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ru/netology/Geo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ru/netology/Likes.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ru/netology/Place.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ru/netology/Platform.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ru/netology/PostSource.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ru/netology/Reposts.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ru/netology/Type.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ru/netology/Views.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ru/netology/WallService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ru/netology/WallService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ru/netology/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ru/netology/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ru/netology/Post.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ru/netology/Post.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/kotlin/ru/netology/WallServiceTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/ru/netology/WallServiceTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,17 +45,6 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="VK_Post" type="f1a62948:ProjectNode" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="VK_Post" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="VK_Post" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="verification" type="c8890929:TasksNode$1" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -54,9 +56,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
-        <option value="Kotlin Enum" />
         <option value="Kotlin Object" />
         <option value="JUnit4 Test Class" />
+        <option value="Kotlin Enum" />
+        <option value="Kotlin Data Class" />
       </list>
     </option>
   </component>
@@ -98,9 +101,10 @@
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="gradle test jacocoTestReport" />
+      <command value="gradle test" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.VK_Post [jacocoTestReport]">
+  <component name="RunManager" selected="Kotlin.MainKt">
     <configuration name="VK_Post [jacocoTestReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -165,7 +169,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="WallServiceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="WallServiceTest.add_post" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -178,7 +182,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ru.netology.WallServiceTest&quot;" />
+            <option value="&quot;ru.netology.WallServiceTest.add_post&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -197,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.VK_Post [jacocoTestReport]" />
-        <item itemvalue="Gradle.VK_Post [test]" />
         <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="Gradle.WallServiceTest.add_post" />
+        <item itemvalue="Gradle.VK_Post [test]" />
+        <item itemvalue="Gradle.VK_Post [jacocoTestReport]" />
         <item itemvalue="Gradle.VK_Post [test jacocoTestReport]" />
-        <item itemvalue="Gradle.WallServiceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663015438592</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fix wallservice WallServiceTest">
+      <created>1663614541051</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1663614541051</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -262,6 +273,7 @@
     <MESSAGE value="add test jacoco" />
     <MESSAGE value="fix build.gradle" />
     <MESSAGE value="add gradle.yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="add gradle.yml" />
+    <MESSAGE value="fix wallservice WallServiceTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix wallservice WallServiceTest" />
   </component>
 </project>
