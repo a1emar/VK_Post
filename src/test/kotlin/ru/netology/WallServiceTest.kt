@@ -91,7 +91,7 @@ class WallServiceTest {
             donut = Donut(isDonut = false, paidDuration = 0, placeholder = "plag", canPublishFreeCopy = false, editMode = "all"), postponedId = 0))
 
         //act
-        val result = service.update(Post(id = 1, ownerId = 1, fromId = 1, createdBy = 99, date = 20220612, text = "Hello Potlin", replyOwnerId = 1, replyPostId = 1,
+        val result = service.update(Post(id = 4, ownerId = 1, fromId = 1, createdBy = 99, date = 20220612, text = "Hello Potlin", replyOwnerId = 1, replyPostId = 1,
             friendsOnly = false, comments = Comments(0, true, false, false, true),
             copyright = Copyright(1, "CprghtLink", "CprghtName", "CprghtType"), likes = Likes(0, false, false, false),
             reposts = Reposts(0, false), views = Views(1), postType = PostType.post, postSource = PostSource(Type.vk, Platform.android, Data.poll),
